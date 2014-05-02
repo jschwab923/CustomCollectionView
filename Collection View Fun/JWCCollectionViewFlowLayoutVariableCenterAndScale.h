@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap : UICollectionViewFlowLayout
+@interface JWCCollectionViewFlowLayoutVariableCenterAndScale : UICollectionViewFlowLayout
 
 @property (nonatomic) NSIndexPath *currentCellPath;
 @property (nonatomic) CGPoint currentCenter;

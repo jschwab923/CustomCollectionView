@@ -19,7 +19,7 @@
                             <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6bj-Mw-DSl">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <collectionViewLayout key="collectionViewLayout" id="EcX-Ce-fUi" customClass="JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap"/>
+                                <collectionViewLayout key="collectionViewLayout" id="EcX-Ce-fUi" customClass="JWCCollectionViewFlowLayoutVariableCenterAndScale"/>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="bQk-jl-Q6w" customClass="JWCCollectionViewCell">
                                         <rect key="frame" x="0.0" y="0.0" width="91" height="89"/>

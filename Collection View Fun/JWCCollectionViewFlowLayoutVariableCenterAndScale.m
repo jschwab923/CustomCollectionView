@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 Jeff Writes Code. All rights reserved.
 //
 
-#import "JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap.h"
+#import "JWCCollectionViewFlowLayoutVariableCenterAndScale.h"
 @import QuartzCore;
 
-@implementation JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap
+@implementation JWCCollectionViewFlowLayoutVariableCenterAndScale
 
 - (void)setCurrentCenter:(CGPoint)currentCenter
 {

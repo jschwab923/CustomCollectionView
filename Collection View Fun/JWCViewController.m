@@ -8,7 +8,7 @@
 
 #import "JWCViewController.h"
 #import "JWCCollectionViewCell.h"
-#import "JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap.h"
+#import "JWCCollectionViewFlowLayoutVariableCenterAndScale.h"
 #import "JWCCollectionViewFlowLayoutDragAndDrop.h"
 
 @interface JWCViewController () <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
@@ -92,7 +92,7 @@
 #pragma mark - Gesture Recognizers
 - (void)pinch:(UIPinchGestureRecognizer *)pinch
 {
-    JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap *layout = (JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap *)self.collectionView.collectionViewLayout;
+    JWCCollectionViewFlowLayoutVariableCenterAndScale *layout = (JWCCollectionViewFlowLayoutVariableCenterAndScale *)self.collectionView.collectionViewLayout;
     if (pinch.state == UIGestureRecognizerStateBegan) {
         CGPoint pinchLocation = [pinch locationInView:self.collectionView];
         NSIndexPath *cellIndexPath = [self.collectionView indexPathForItemAtPoint:pinchLocation];
@@ -110,7 +110,7 @@
 
 - (void)longPress:(UILongPressGestureRecognizer *)longPress
 {
-    JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap *layout = (JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap *)self.collectionView.collectionViewLayout;
+    JWCCollectionViewFlowLayoutVariableCenterAndScale *layout = (JWCCollectionViewFlowLayoutVariableCenterAndScale *)self.collectionView.collectionViewLayout;
     if (longPress.state == UIGestureRecognizerStateBegan) {
         _holdingCell = true;
         layout.currentScale = 1;

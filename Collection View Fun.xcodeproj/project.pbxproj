@@ -22,7 +22,7 @@
 		AE94579A1912F1A200DC22C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9457791912F1A200DC22C9 /* UIKit.framework */; };
 		AE9457A21912F1A200DC22C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE9457A01912F1A200DC22C9 /* InfoPlist.strings */; };
 		AE9457A41912F1A200DC22C9 /* Collection_View_FunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9457A31912F1A200DC22C9 /* Collection_View_FunTests.m */; };
-		AE9457AF1912F4EB00DC22C9 /* JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9457AE1912F4EB00DC22C9 /* JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap.m */; };
+		AE9457AF1912F4EB00DC22C9 /* JWCCollectionViewFlowLayoutVariableCenterAndScale.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9457AE1912F4EB00DC22C9 /* JWCCollectionViewFlowLayoutVariableCenterAndScale.m */; };
 		AE9457B21913012600DC22C9 /* JWCCollectionViewFlowLayoutDragAndDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9457B11913012600DC22C9 /* JWCCollectionViewFlowLayoutDragAndDrop.m */; };
 		AE9457B51913097100DC22C9 /* JWCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9457B41913097100DC22C9 /* JWCCollectionViewCell.m */; };
 /* End PBXBuildFile section */
@@ -58,8 +58,8 @@
 		AE94579F1912F1A200DC22C9 /* Collection View FunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Collection View FunTests-Info.plist"; sourceTree = "<group>"; };
 		AE9457A11912F1A200DC22C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE9457A31912F1A200DC22C9 /* Collection_View_FunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Collection_View_FunTests.m; sourceTree = "<group>"; };
-		AE9457AD1912F4EB00DC22C9 /* JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap.h; sourceTree = "<group>"; };
-		AE9457AE1912F4EB00DC22C9 /* JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap.m; sourceTree = "<group>"; };
+		AE9457AD1912F4EB00DC22C9 /* JWCCollectionViewFlowLayoutVariableCenterAndScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCCollectionViewFlowLayoutVariableCenterAndScale.h; sourceTree = "<group>"; };
+		AE9457AE1912F4EB00DC22C9 /* JWCCollectionViewFlowLayoutVariableCenterAndScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCCollectionViewFlowLayoutVariableCenterAndScale.m; sourceTree = "<group>"; };
 		AE9457B01913012600DC22C9 /* JWCCollectionViewFlowLayoutDragAndDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCCollectionViewFlowLayoutDragAndDrop.h; sourceTree = "<group>"; };
 		AE9457B11913012600DC22C9 /* JWCCollectionViewFlowLayoutDragAndDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCCollectionViewFlowLayoutDragAndDrop.m; sourceTree = "<group>"; };
 		AE9457B31913097100DC22C9 /* JWCCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCCollectionViewCell.h; sourceTree = "<group>"; };
@@ -127,8 +127,8 @@
 				AE9457851912F1A200DC22C9 /* JWCAppDelegate.m */,
 				AE94578D1912F1A200DC22C9 /* JWCViewController.h */,
 				AE94578E1912F1A200DC22C9 /* JWCViewController.m */,
-				AE9457AD1912F4EB00DC22C9 /* JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap.h */,
-				AE9457AE1912F4EB00DC22C9 /* JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap.m */,
+				AE9457AD1912F4EB00DC22C9 /* JWCCollectionViewFlowLayoutVariableCenterAndScale.h */,
+				AE9457AE1912F4EB00DC22C9 /* JWCCollectionViewFlowLayoutVariableCenterAndScale.m */,
 				AE9457B01913012600DC22C9 /* JWCCollectionViewFlowLayoutDragAndDrop.h */,
 				AE9457B11913012600DC22C9 /* JWCCollectionViewFlowLayoutDragAndDrop.m */,
 				AE9457B31913097100DC22C9 /* JWCCollectionViewCell.h */,
@@ -270,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE9457821912F1A200DC22C9 /* main.m in Sources */,
-				AE9457AF1912F4EB00DC22C9 /* JWCCollectionViewFlowLayoutPinchToZoomDragAndSwap.m in Sources */,
+				AE9457AF1912F4EB00DC22C9 /* JWCCollectionViewFlowLayoutVariableCenterAndScale.m in Sources */,
 				AE9457861912F1A200DC22C9 /* JWCAppDelegate.m in Sources */,
 				AE9457B51913097100DC22C9 /* JWCCollectionViewCell.m in Sources */,
 				AE9457B21913012600DC22C9 /* JWCCollectionViewFlowLayoutDragAndDrop.m in Sources */,
